@@ -14,7 +14,7 @@
 }
 .card{
     width: 350px;
-    height: 500px;
+    height: 555px;
     box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
     perspective: 1000px;
 }
@@ -71,12 +71,19 @@ button{
     margin: 35px 0 10px 0;
     height: 32px;
     font-size: 12px;
+    font-weight: normal;
     border-radius: 20px;
     padding: 0 10px;
     box-sizing: border-box;
     outline: none;
     color: #fff;
     cursor: pointer;
+    transition: .4s linear;
+}
+button:hover{
+    background: #ffffff;
+    color: #0d0241;
+    border: 1px solid #000000;
 }
 .submit-btn{
     position: relative;
@@ -93,13 +100,14 @@ button{
     position: absolute;
     right: -1px;
     top: -1px;
+    
 }
 span{
     font-size: 13px;
     margin-left: 10px;
 }
 .card .btn{
-    margin-top: 70px;
+    margin-top: 60px;
 }
 .card a{
     color: #fff;
@@ -107,7 +115,7 @@ span{
     display: block;
     text-align: center;
     font-size: 13px;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 
